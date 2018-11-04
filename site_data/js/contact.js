@@ -1,8 +1,16 @@
+function loading() {
+	$('formc').click(function() {
+		$(this).html('<img src="http://www.bba-reman.com/images/fbloader.gif"/>');
+		return false;
+	})
+}
+
 const scriptURLC = 'https://script.google.com/macros/s/AKfycbzoQZdJY0slRnYbIH2gJa1YdmmgvFD7Fpo2p7qyNEGeFe6Czq8/exec'
 const formc = document.forms['email-from-public'];
 const alert_subc = document.getElementById('alert_submission');
 
 formc.addEventListener('submit', e => {
+	loading();
 	// todo disable submit button
 	e.preventDefault();
 	fetch(scriptURLC, {
