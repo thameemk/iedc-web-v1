@@ -1,6 +1,6 @@
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
     <IfModule mod_headers.c>
-        Header set Access-Control-Allow-Origin "http://localhost/IEDC-Dynamic/"
+        Header set Access-Control-Allow-Origin "https://www.iedctkmce.com/"
     </IfModule>
 </FilesMatch>
 <IfModule mod_rewrite.c>
