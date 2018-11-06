@@ -6,7 +6,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^iedctkmce\.com.*$ [NC]
+RewriteCond %{HTTP_HOST} ^(http\:\/\/)?(www\.)?iedctkmce\.com.*$ [NC]
 RewriteRule ^(.*) https://www.iedctkmce.com/$1 [L,R]
 
 RewriteCond %{REQUEST_FILENAME} !-f
