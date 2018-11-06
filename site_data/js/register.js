@@ -5,14 +5,11 @@ const alert_sub = document.getElementById('alert_submission');
 form.addEventListener('submit', e => {
 	// todo disable submit button
 	e.preventDefault();
-	fetch(scriptURL, {
-			method: 'POST',
-			body: new FormData(form)
-		})
+	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 		.then(res => {
 			console.log(res);
 			// todo enable submit button
-			if (res['status'] == 200) {
+			if(res['status']==200) {
 				alert_sub.classList.remove('alert-danger');
 				alert_sub.classList.add('alert-msg');
 				alert_sub.innerHTML = 'Registration completed !!';

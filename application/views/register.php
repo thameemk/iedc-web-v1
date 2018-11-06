@@ -38,11 +38,41 @@
                                 <div class="col-lg-6 d-flex flex-column">
                                   <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="tel" >
                                 </div>
-                                <div class="col-lg-6 d-flex flex-column">
-                                  <input name="branch" placeholder="Branch" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Branch'" class="form-control mt-20" required="" type="text" >
+																<div class="col-lg-12 d-flex flex-column">
+                                  <select name="branch" class="form-control mt-20" required="" type="text" >
+                                  	<option value="">Branch</option>
+                                  	<option value="M-Tech">M-Tech</option>
+                                  	<option value="Architecture">Architecture</option>
+									<option value="Chemical Engineering">Chemical Engineering</option>
+									<option value="Civil Engineering">Civil Engineering</option>
+									<option value="Computer Science & Engineering">Computer Science & Engineering</option>
+									<option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
+									<option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option>
+									<option value="Master of Computer Application">Master of Computer Application</option>
+									<option value="Mechanical Engineering">Mechanical Engineering</option>
+									<option value="Mechanical Production">Mechanical Production</option>
+								  </select>
                                 </div>
-                                <div class="col-lg-6 d-flex flex-column">
-                                  <input name="course_duration" placeholder="Course Duration" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Course Duration'" class="form-control mt-20" required="" type="text" >
+																<div class="col-lg-6 d-flex flex-column">
+                                  <select  name="course_duration_1"  class="form-control mt-20" required="">
+                                  	<option value="">From</option>
+                                  	<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+								  </select>
+								</div>
+								<div class="col-lg-6 d-flex flex-column">
+								  <select  name="course_duration_2"  class="form-control mt-20" required="">
+								  	<option value="">To</option>
+                                  	<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+									<option value="2023">2023</option>
+								  </select>
                                 </div>
 
 

@@ -42,12 +42,12 @@
 				        		<a href="<?php echo base_url();?>Home"><img src="<?php echo base_url ()?>site_data/images/logo.png" alt="IEDC" title="IEDC" /></a>
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-								<a class="btns" href="tel:++91 95446 95845">+91 95446 95845</a>
-				  				<a class="btns" href="mailto:onlineiedctkm@gmail.com">onlineiedctkm@gmail.com</a>
+								<!-- <a class="btns" href="tel:++91 95446 95845">+91 95446 95845</a> -->
+				  				<a class="btns" href="mailto:info@iedctkmce.com">info@iedctkmce.com</a>
 				  				<a class="icons" href="tel:+91 95446 95845">
 				  					<span class="lnr lnr-phone-handset"></span>
 				  				</a>
-				  				<a class="icons" href="mailto:onlineiedctkm@gmail.com">
+				  				<a class="icons" href="mailto:info@iedctkmce.com">
 				  					<span class="lnr lnr-envelope"></span>
 				  				</a>
 				  			</div>
