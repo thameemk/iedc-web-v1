@@ -301,7 +301,7 @@
 																	<input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
 															</div>
 															<div class="col-lg-6 d-flex flex-column">
-																	<input name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="form-control mt-20" required="" >
+																	<input name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="form-control mt-20" required="" type="email">
 															</div>
 
 
@@ -310,7 +310,7 @@
 															</div>
 															<div class="col-lg-6 flex-column"><br/>
 									<span id="alert_submission" class=""></span>
-								</div>
+								</div>&nbsp;
 								 <div class="col-lg-6 d-flex justify-content-end send-btn">
 									<button type="submit" class="ui inverted green button  " id="but">Send</button>
 								</div>

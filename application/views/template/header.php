@@ -59,38 +59,38 @@
 				</div>
 				<!-- closing header top -->
 				<!-- main menu starting -->
-			    <div class="container main-menu">
-			    	<div class="row align-items-center justify-content-between d-flex">
-			    		<!-- nav menu -->
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="https://www.iedctkmce.com/">Home</a></li>
-				          <li class="menu-has-children"><a href="#">Initiatives</a>
-				            <ul>
-				              <li><a href="<?php echo base_url();?>Home/Ecell">E-Cell</a></li>
-				              <li><a href="<?php echo base_url();?>Home/IRCell">IR-Cell</a></li>
-					          <li><a href="<?php echo base_url();?>Home/Communities">Communities</a></li>
-				            </ul>
-				          </li>
-				          <li><a href="<?php echo base_url();?>Home/Gallery">Gallery</a></li>
-				          <li><a href="<?php echo base_url();?>Home/Team">Team</a></li>
-				          <li><a href="<?php echo base_url();?>Home/Blog">Blog</a></li>
-				          <li><a href="<?php echo base_url();?>Home/#CONTACT">Contact</a></li>
-				          <li><a href="<?php echo base_url();?>Home/Register">Register</a></li>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+						<!-- nav menu -->
+						<nav id="nav-menu-container">
+							<ul class="nav-menu">
+								<li class="menu-active"><a href="https://www.iedctkmce.com/">Home</a></li>
+								<li class="menu-has-children"><a href="#">Initiatives</a>
+									<ul>
+										<li><a href="<?php echo base_url ();?>Home/Ecell">E-Cell</a></li>
+										<li><a href="<?php echo base_url ();?>Home/IRCell">IR-Cell</a></li>
+									<li><a href="<?php echo base_url ();?>Home/Communities">Communities</a></li>
+									</ul>
+								</li>
+								<li><a href="<?php echo base_url ();?>Home/Gallery">Gallery</a></li>
+								<li><a href="<?php echo base_url ();?>Home/Team">Team</a></li>
+								<li><a href="<?php echo base_url ();?>Home/Blog">Blog</a></li>
+								<li><a href="<?php echo base_url ();?>Home/#CONTACT">Contact</a></li>
+								<li><a href="<?php echo base_url ();?>Home/Register">Register</a></li>
 
-				        </ul>
-				      </nav>
-				      	<!-- nav menu closing -->
-				      	<!-- social media icons -->
-			      		<div class="menu-social-icons">
-			      			<a href="https://www.instagram.com/iedc_tkmce/?utm_source=ig_profile_share&igshid=1l9s2kp2c6j2t"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.facebook.com/tkmedc/"><i class="fa fa-facebook"></i></a>
-							<a href="mailto:onlineiedctkm@gmail.com"><i class="lnr lnr-envelope"></i></a>
-							<a href="tel:+91 95446 95845"><i class="lnr lnr-phone-handset"></i></a>
-						</div>
-						<!-- closing social media icon -->
-			    	</div>
-			    </div>
+							</ul>
+						</nav>
+							<!-- nav menu closing -->
+							<!-- social media icons -->
+							<div class="menu-social-icons">
+								<a href="https://www.instagram.com/iedc_tkmce/?utm_source=ig_profile_share&igshid=1l9s2kp2c6j2t"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.facebook.com/tkmedc/"><i class="fa fa-facebook"></i></a>
+						<a href="mailto:info@iedctkmce.com"><i class="lnr lnr-envelope"></i></a>
+						<a href="tel:+91 95446 95845"><i class="lnr lnr-phone-handset"></i></a>
+					</div>
+					<!-- closing social media icon -->
+					</div>
+				</div>
 			    <!-- main menu closing -->
 			  </header>
 			  <!-- Closing header part -->

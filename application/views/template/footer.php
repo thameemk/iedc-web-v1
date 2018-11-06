@@ -32,7 +32,7 @@
 			<script src="<?php echo base_url()?>site_data/js/main.js"></script>
 			<script src="<?php echo base_url()?>site_data/js/register.js"></script>
 			<script src="<?php echo base_url()?>site_data/js/contact.js"></script>
-			<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+			<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128744750-1"></script>
 <script>

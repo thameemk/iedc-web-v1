@@ -88,7 +88,7 @@
 				<div class="col-lg-6 flex-column"><br/>
 					<span id="alert_submission" class=""></span>
 				</div>
-				<br>
+				<br>&nbsp;
 				 <div class="col-lg-6 d-flex justify-content-end send-btn">
 				 	<button type="submit" class="ui inverted green button  " id="reg">Submit</button>
 				</div>
