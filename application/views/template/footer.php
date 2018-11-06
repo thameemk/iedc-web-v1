@@ -7,7 +7,7 @@
 						<div class="col-lg-4 col-sm-12 footer-social">
 							<a href="https://instagram.com/iedc_tkmce?utm_source=ig_profile_share&igshid=1l9s2kp2c6j2t"><i class="fa fa-instagram"></i></a>
 							<a href="https://www.facebook.com/tkmedc/"><i class="fa fa-facebook"></i></a>
-							<a href="mailto:onlineiedctkm@gmail.com"><i class="lnr lnr-envelope"></i></a>
+							<a href="mailto:info@iedctkmce.com"><i class="lnr lnr-envelope"></i></a>
 							<a href="tel:+91 95446 95845"><i class="lnr lnr-phone-handset"></i></a>
 						</div>
 					</div>
@@ -33,7 +33,18 @@
 			<script src="<?php echo base_url()?>site_data/js/register.js"></script>
 			<script src="<?php echo base_url()?>site_data/js/contact.js"></script>
 			<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
-			<script type="text/javascript" src="<?php echo base_url()?>site_data/js/loading.js"></script>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128744750-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128744750-1');
+</script>
+
+
+
 
 			<!-- closing script area -->
 		</body>

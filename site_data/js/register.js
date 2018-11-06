@@ -5,6 +5,7 @@ const alert_sub = document.getElementById('alert_submission');
 form.addEventListener('submit', e => {
 	// todo disable submit button
 	e.preventDefault();
+		$('#reg').addClass('loading');
 	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 		.then(res => {
 			console.log(res);
@@ -18,7 +19,7 @@ form.addEventListener('submit', e => {
 				alert_sub.classList.remove('alert-msg');
 				alert_sub.classList.add('alert-danger');
 				alert_sub.innerHTML = 'Error occured.';
-			}
+			}$('#reg').removeClass('loading');
 		})
 		.catch(error => {
 			console.error('Error!', error.message);

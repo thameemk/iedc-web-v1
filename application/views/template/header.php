@@ -4,6 +4,7 @@
 	<html lang="zxx" class="no-js">
 
 		<head>
+			<title>IEDC TKMCE </title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- site icon iedc logo -->
@@ -28,6 +29,8 @@
 		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/owl.carousel.css">
 		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/main.css">
 			<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/new.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.css">
+
 
 		</head>
 
@@ -61,7 +64,7 @@
 			    		<!-- nav menu -->
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="<?php echo base_url();?>Home">Home</a></li>
+				          <li class="menu-active"><a href="https://www.iedctkmce.com/">Home</a></li>
 				          <li class="menu-has-children"><a href="#">Initiatives</a>
 				            <ul>
 				              <li><a href="<?php echo base_url();?>Home/Ecell">E-Cell</a></li>

@@ -285,45 +285,43 @@
 			<!-- End upcoming treks-->
 
 			<!-- Start Contact Area -->
-			<section class="appoinment-area section-gap relative" id="CONTACT">
-				<div class="container">
-					<div class="row align-items-center justify-content-end">
-						<div class="col-lg-6 no-padding appoinment-right">
-							<h1 class="text-white">
-								Contact Us
-							</h1>
-							<form class="appoinment-form" name="email-from-public">
-		                        <div class="row">
-		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="name" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Name'" class="form-control mt-20" required type="text">
-		                            </div>
-		                            <div class="col-lg-6 d-flex flex-column">
-		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
-		                            </div>
-		                            <div class="col-lg-6 d-flex flex-column">
-		                                <input name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="form-control mt-20" required="" type="email">
-		                            </div>
+		<section class="appoinment-area section-gap relative" id="CONTACT">
+			<div class="container">
+				<div class="row align-items-center justify-content-end">
+					<div class="col-lg-6 no-padding appoinment-right">
+						<h1 class="text-white">
+							Contact Us
+						</h1>
+						<form class="appoinment-form" name="email-from-public">
+													<div class="row">
+															<div class="col-lg-12 d-flex flex-column">
+																	<input name="name" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Name'" class="form-control mt-20" required type="text">
+															</div>
+															<div class="col-lg-6 d-flex flex-column">
+																	<input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
+															</div>
+															<div class="col-lg-6 d-flex flex-column">
+																	<input name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="form-control mt-20" required="" >
+															</div>
 
 
-		                            <div class="col-lg-12 flex-column">
-		                                <textarea  rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-		                            </div>
-		                            <div class="col-lg-6 flex-column"><br/>
-										<span id="alert_submission" class=""></span>
-									</div>
-									 <div class="col-lg-6 d-flex justify-content-end send-btn">
-									 	<button type="submit" class="primary-btn primary mt-20 text-uppercase" >Send</button>
-									</div>
-
-		                            <!-- <div class="col-lg-12 d-flex justify-content-end send-btn">
-		                                <button class="primary-btn primary mt-20 text-uppercase ">SEND</button>
-		                            </div> -->
+															<div class="col-lg-12 flex-column">
+																	<textarea  rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+															</div>
+															<div class="col-lg-6 flex-column"><br/>
+									<span id="alert_submission" class=""></span>
+								</div>
+								 <div class="col-lg-6 d-flex justify-content-end send-btn">
+									<button type="submit" class="ui inverted green button  " id="but">Send</button>
+								</div>
 
 
-		                        </div>
-		                    </form>
-		                 </div>
-		            </div>
-		        </div>
-		    </section>
-			<!-- End Contact Area -->
+
+
+													</div>
+											</form>
+									 </div>
+							</div>
+					</div>
+			</section>
+		<!-- End Contact Area -->

@@ -88,8 +88,9 @@
 				<div class="col-lg-6 flex-column"><br/>
 					<span id="alert_submission" class=""></span>
 				</div>
+				<br>
 				 <div class="col-lg-6 d-flex justify-content-end send-btn">
-				 	<button type="submit" class="primary-btn primary mt-20 text-uppercase ">Submit</button>
+				 	<button type="submit" class="ui inverted green button  " id="reg">Submit</button>
 				</div>
                             </div>
                         </form>
