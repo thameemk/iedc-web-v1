@@ -5,7 +5,7 @@ const scriptURLC = 'https://script.google.com/macros/s/AKfycbzoQZdJY0slRnYbIH2gJ
 			  formc.addEventListener('submit', e => {
 				  // todo disable submit button
 				  e.preventDefault();
-					$('#but').addClass('loading');
+					document.getElementById('but').classList.add('loading');
 				  fetch(scriptURLC, { method: 'POST', body: new FormData(formc)})
 					  .then(res => {
 						  console.log(res);
@@ -22,7 +22,7 @@ const scriptURLC = 'https://script.google.com/macros/s/AKfycbzoQZdJY0slRnYbIH2gJ
 							  alert_subc.classList.add('alert-danger');
 							  alert_subc.innerHTML = 'Error occured.';
 
-						  }$('#but').removeClass('loading');
+						  }document.getElementById('but').classList.remove('loading');
 					  })
 					  .catch(error => {
 						  console.error('Error!', error.message);
