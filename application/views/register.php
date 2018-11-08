@@ -53,6 +53,12 @@
 									<option value="Mechanical Production">Mechanical Production</option>
 								  </select>
                                 </div>
+																<div class="col-lg-12 d-flex flex-column">
+																 <font style="font-weight: bold;color:#37393B">
+																	 <br>
+																	 Course Duration:
+																 </font>
+															 </div>
 																<div class="col-lg-6 d-flex flex-column">
                                   <select  name="course_duration_1"  class="form-control mt-20" required="">
                                   	<option value="">From</option>
@@ -79,6 +85,12 @@
                                 <div class="col-lg-6 d-flex flex-column">
                                   <input type="number" name="admission_number" placeholder="Admission number" onfocus="this.placeholder = ''" onblur="this.placeholder ='Admission Number'" class="form-control mt-20" required="">
                                 </div>
+																<div class="col-lg-12 d-flex flex-column">
+                                	<font style="font-weight: bold;color:#37393B">
+                                		<br>
+                                		Date Of Birth:
+                                	</font>
+                                </div>	
                                 <div class="col-lg-6 d-flex flex-column">
                                   <input type="date" name="dob" placeholder="Date Of Birth" onfocus="this.placeholder = ''" onblur="this.placeholder ='Date Of Birth'" class="form-control mt-20" required="">
                                 </div>
