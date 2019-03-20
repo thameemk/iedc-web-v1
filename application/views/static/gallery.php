@@ -9,7 +9,7 @@
 							<h1  style="color: #884EA0">
 								Gallery
 							</h1>
-							<p class="link-nav"  style="color: #884EA0"><a  style="color: #884EA0" href="<?php echo base_url();?>Home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a  style="color: #884EA0" href="<?php echo base_url();?>Home/Gallery"> Gallery</a></p>
+							<p class="link-nav"  style="color: #884EA0"><a  style="color: #884EA0" href="<?php echo base_url();?>home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a  style="color: #884EA0" href="<?php echo base_url();?>gallery"> Gallery</a></p>
 						</div>
 					</div>
 				</div>

@@ -67,16 +67,16 @@
 								<li class="menu-active"><a href="https://www.iedctkmce.com/">Home</a></li>
 								<li class="menu-has-children"><a href="#">Initiatives</a>
 									<ul>
-										<li><a href="<?php echo base_url ();?>Home/Ecell">E-Cell</a></li>
-										<li><a href="<?php echo base_url ();?>Home/IRCell">IR-Cell</a></li>
-									<li><a href="<?php echo base_url ();?>Home/Communities">Communities</a></li>
+										<li><a href="<?php echo base_url ();?>ecell">E-Cell</a></li>
+										<li><a href="<?php echo base_url ();?>ircell">IR-Cell</a></li>
+									<li><a href="<?php echo base_url ();?>community">Communities</a></li>
 									</ul>
 								</li>
-								<li><a href="<?php echo base_url ();?>Home/Gallery">Gallery</a></li>
-								<li><a href="<?php echo base_url ();?>Home/Team">Team</a></li>
-								<li><a href="<?php echo base_url ();?>Home/Blog">Blog</a></li>
-								<li><a href="<?php echo base_url ();?>Home/#CONTACT">Contact</a></li>
-								<li><a href="<?php echo base_url ();?>Home/Register">Register</a></li>
+								<li><a href="<?php echo base_url ();?>gallery">Gallery</a></li>
+								<li><a href="<?php echo base_url ();?>team">Team</a></li>
+								<li><a href="<?php echo base_url ();?>blog">Blog</a></li>
+								<li><a href="<?php echo base_url ();?>home/#contact">Contact</a></li>
+								<li><a href="<?php echo base_url ();?>register">Register</a></li>
 
 							</ul>
 						</nav>

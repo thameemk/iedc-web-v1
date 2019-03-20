@@ -9,7 +9,7 @@
 							<h1 class="text-white">
 								Community
 							</h1>
-							<p class="text-white link-nav"><a href="<?php echo base_url();?>Home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>Home/Community"> Community</a></p>
+							<p class="text-white link-nav"><a href="<?php echo base_url();?>home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>community"> Community</a></p>
 						</div>
 					</div>
 				</div>

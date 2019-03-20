@@ -9,7 +9,7 @@
 							<h1 class="text-white">
 								IR-Cell
 							</h1>
-							<p class="text-white link-nav"><a href="<?php echo base_url();?>Home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>Home/IRCell"> IR-Cell</a></p>
+							<p class="text-white link-nav"><a href="<?php echo base_url();?>home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>ircell"> IR-Cell</a></p>
 						</div>
 					</div>
 				</div>

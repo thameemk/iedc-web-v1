@@ -109,15 +109,15 @@
 								<div class="icon">
 									<span class="lnr lnr-calendar-full"></span>
 								</div>
-								<div class="details" data-toggle="modal" data-target="#readMore4">
-									<h4>EVOKE'19 <span style="color:#E91111"><a href="#" style="color: #0303D8" id="problem_of_the_contest">Readmore </a></span></h4><br>
+								<div class="details" data-toggle="modal" data-target="#readMore8">
+									<h4>EVOKE'19 <span style="color:#E91111"><a href="#" style="color: #0303D8" id="evoke19">Readmore </a></span></h4><br>
 									<p>
 
 										<img src="<?php echo base_url()?>site_data/images/home/updates/evoke.jpeg" class="img-fluid">
 									</p>
 								</div>
 								<!--modal-->
-									<div class="modal fade" id="readMore4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+									<div class="modal fade" id="readMore8" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
 										<div class="modal-dialog" role="document">
 											<div class="modal-content">
 												<div class="modal-header">
@@ -130,11 +130,11 @@
 												</div>
 												<div class="modal-body">
 
-													<img class="img-fluid rounded" width="100%" height:="" auto="" src="https://www.iedctkmce.com/site_data/images/home/updates/5.jpeg" alt="">
+													<img class="img-fluid rounded" width="100%" height:="" auto="" src="https://www.iedctkmce.com/site_data/images/home/updates/evoke.jpeg" alt="">
 													<hr>
 													<div class="container" style="text-align: justify;">
 
-                                                        <a href="https://www.evoke19.com">Goto Website</a>		
+                                                        <a href="https://www.evoke19.com">Goto Website</a>
 
 
 													</div>
@@ -145,12 +145,12 @@
 								</div>
 							</div>
 						</div>
-						
-						
-						
-						
-						
-						
+
+
+
+
+
+
 						<div class="col-lg-6 col-md-6">
 							<div class="single-feature d-flex flex-row">
 								<div class="icon">
@@ -332,7 +332,7 @@
 			<!-- End upcoming treks-->
 
 			<!-- Start Contact Area -->
-		<section class="appoinment-area section-gap relative" id="CONTACT">
+		<section class="appoinment-area section-gap relative" id="contact">
 			<div class="container">
 				<div class="row align-items-center justify-content-end">
 					<div class="col-lg-6 no-padding appoinment-right">

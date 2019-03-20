@@ -7,7 +7,7 @@
 							<h1 class="text-white">
 								Register
 							</h1>
-							<p class="text-white link-nav"><a href="<?php echo base_url();?>Home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>Home/Register"> Registor</a></p>
+							<p class="text-white link-nav"><a href="<?php echo base_url();?>home">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="<?php echo base_url();?>register"> Registor</a></p>
 						</div>
 					</div>
 				</div>
@@ -20,7 +20,7 @@
                 <div>
 				<div class="container">
 					<div class="section-top-border">
-						
+
 						<div class="row">
 							<div class="col-lg-12">
 
@@ -31,6 +31,6 @@
 					</div>
 				</div>
 			</div>
-  
+
  </section>
 <!-- End registartion area -->
