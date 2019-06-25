@@ -1,0 +1,18 @@
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "https://www.iedctkmce.com/"
+    </IfModule>
+</FilesMatch>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(http\:\/\/)?(www\.)?iedctkmce\.com$ [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*) https://www.iedctkmce.com/$1 [L,R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+DirectoryIndex index.php index.html index2.html
+</IfModule>

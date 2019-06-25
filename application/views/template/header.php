@@ -8,7 +8,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- site icon iedc logo -->
-		<link rel="shortcut icon" href="<?php echo base_url ()?>site_data/images/icon.png">
+		<link rel="shortcut icon" href="<?php echo base_url ()?>assets/front/images/icon.png">
 
 		<meta name="description" content="">
 
@@ -19,16 +19,16 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<!-- css files	 -->
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/linearicons.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/font-awesome.min.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/bootstrap.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/magnific-popup.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/nice-select.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/animate.min.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/jquery-ui.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/owl.carousel.css">
-		<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/main.css">
-			<link rel="stylesheet" href="<?php echo base_url ()?>site_data/css/new.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/linearicons.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/font-awesome.min.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/bootstrap.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/magnific-popup.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/nice-select.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/animate.min.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/jquery-ui.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/owl.carousel.css">
+		<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/main.css">
+			<link rel="stylesheet" href="<?php echo base_url ()?>assets/front/css/new.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.css">
 
 
@@ -42,7 +42,7 @@
 		  			<div class="container">
 				  		<div class="row align-items-center">
 				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-				        		<a href="<?php echo base_url();?>Home"><img src="<?php echo base_url ()?>site_data/images/logo.png" alt="IEDC" title="IEDC" /></a>
+				        		<a href="<?php echo base_url();?>Home"><img src="<?php echo base_url ()?>assets/front/images/logo.png" alt="IEDC" title="IEDC" /></a>
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 								<!-- <a class="btns" href="tel:++91 95446 95845">+91 95446 95845</a> -->
@@ -64,7 +64,7 @@
 						<!-- nav menu -->
 						<nav id="nav-menu-container">
 							<ul class="nav-menu">
-								<li class="menu-active"><a href="https://www.iedctkmce.com/">Home</a></li>
+								<li class="menu-active"><a href="<?php echo base_url ();?>home">Home</a></li>
 								<li class="menu-has-children"><a href="#">Initiatives</a>
 									<ul>
 										<li><a href="<?php echo base_url ();?>ecell">E-Cell</a></li>
@@ -75,7 +75,7 @@
 								<li><a href="<?php echo base_url ();?>gallery">Gallery</a></li>
 								<li><a href="<?php echo base_url ();?>team">Team</a></li>
 								<li><a href="<?php echo base_url ();?>blog">Blog</a></li>
-								<li><a href="<?php echo base_url ();?>home/#contact">Contact</a></li>
+								<li><a href="<?php echo base_url ();?>contact">Contact</a></li>
 								<li><a href="<?php echo base_url ();?>register">Register</a></li>
 
 							</ul>
