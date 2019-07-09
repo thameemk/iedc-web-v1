@@ -7,6 +7,8 @@
 			<title>IEDC TKMCE </title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Official website of Innovation and Entrepreneurship Development Cell, TKM College of Engineering.">
+		<meta name="keywords" content="IEDC,IEDC TKMCE,TKMCE,TKM College of engineering,IEDC Kerala,Kerala Startup mission,KSUM">
 		<!-- site icon iedc logo -->
 		<link rel="shortcut icon" href="<?php echo base_url ()?>assets/front/images/icon.png">
 
@@ -47,12 +49,12 @@
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 								<!-- <a class="btns" href="tel:++91 95446 95845">+91 95446 95845</a> -->
 				  				<a class="btns" href="mailto:info@iedctkmce.com">info@iedctkmce.com</a>
-				  				<a class="icons" href="tel:+91 95446 95845">
+				  				<!-- <a class="icons" href="tel:+91 95446 95845">
 				  					<span class="lnr lnr-phone-handset"></span>
-				  				</a>
-				  				<a class="icons" href="mailto:info@iedctkmce.com">
+				  				</a> -->
+				  				<!-- <a class="icons" href="mailto:info@iedctkmce.com">
 				  					<span class="lnr lnr-envelope"></span>
-				  				</a>
+				  				</a> -->
 				  			</div>
 				  		</div>
 		  			</div>
