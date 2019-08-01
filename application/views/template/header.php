@@ -4,7 +4,7 @@
 	<html lang="zxx" class="no-js">
 
 		<head>
-			<title>IEDC TKMCE </title>
+			<title><?php echo $page_title; ?> - IEDC TKMCE </title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="Official website of Innovation and Entrepreneurship Development Cell, TKM College of Engineering.">
@@ -47,14 +47,7 @@
 				        		<a href="<?php echo base_url();?>Home"><img src="<?php echo base_url ()?>assets/front/images/logo.png" alt="IEDC" title="IEDC" /></a>
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-								<!-- <a class="btns" href="tel:++91 95446 95845">+91 95446 95845</a> -->
-				  				<a class="btns" href="mailto:info@iedctkmce.com">info@iedctkmce.com</a>
-				  				<!-- <a class="icons" href="tel:+91 95446 95845">
-				  					<span class="lnr lnr-phone-handset"></span>
-				  				</a> -->
-				  				<!-- <a class="icons" href="mailto:info@iedctkmce.com">
-				  					<span class="lnr lnr-envelope"></span>
-				  				</a> -->
+				  				<a class="btns" href="mailto:info@iedctkmce.com">info@iedctkmce.com</a>				  							  			
 				  			</div>
 				  		</div>
 		  			</div>

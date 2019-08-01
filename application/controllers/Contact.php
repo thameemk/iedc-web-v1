@@ -7,25 +7,20 @@ class Contact extends CI_Controller{
 		$this->load->library('session');
 		$this->load->helper('url','form');
 	}
-	public function test(){
-		$this->load->view('static/test');
 
-	}
-
-	
 	public function postEmail(){
 		$this->load->model('report_model');
-		$data = $this->input->post();	
+		$data = $this->input->post();
 		$data = $this->security->xss_clean($data);
-		
+
 	    $data = array(
 		'name' => $this->input->post('name'),
 	    'email' => $this->input->post('email'),
 	    'subject' => $this->input->post('subject'),
-	    'message' => $this->input->post('message'),		
+	    'message' => $this->input->post('message'),
 	    );
 		$this->report_model->messages($data);
-		
+
 		$config = array();
 		$config['protocol'] = 'smtp';
 		$config['smtp_host'] = 'mail.iedctkmce.com';
@@ -36,12 +31,9 @@ class Contact extends CI_Controller{
 
 		$this->email->set_newline("\r\n");
 		$this->email->from($data['email'],$data['name']);
-		$this->email->to('');		
+		$this->email->to('');
 		$this->email->subject($data['subject']);
 		$this->email->message($data['message']);
-					
-			
-
 
      // echo $this->email->print_debugger();
 		if($this->email->send()){
@@ -55,5 +47,5 @@ class Contact extends CI_Controller{
 
 	}
 
-	
+
 }

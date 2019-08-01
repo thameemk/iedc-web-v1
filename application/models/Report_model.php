@@ -20,7 +20,7 @@ class Report_model extends CI_Model {
     public function gallery(){
         $this->db->select('imageName,imageData');
         $query = $this->db->get('gallery');
-        return $query->result_array();        
+        return $query->result_array();
     }
     public function ecellInfo($companyType){
         $this->db->select('companyHead,imageLink,companyData');
@@ -33,9 +33,12 @@ class Report_model extends CI_Model {
     }
     public function upcomingEvents(){
         $query = $this->db->get('upcomingEvents');
-        return $query->result_array();        
+        return $query->result_array();
     }
     public function messages($data){
       $this->db->insert('contacts', $data);
-    }   
+    }
+    public function userRegister($data){
+      $this->db->insert('userRegister', $data);
+    }
 }
