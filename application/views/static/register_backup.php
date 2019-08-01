@@ -21,6 +21,7 @@
 		<div class="section-top-border">
 			<h4 class="head-font" style="color:#ff2d00;"><?= $this->session->flashdata('success') ?></h4><?= $this->session->flashdata('true') ?>
 			<h4 class="head-font" style="color:#ff2d00;"><?= $this->session->flashdata('fail') ?></h4>
+			<h4 class="head-font" style="color:#ff2d00;"><?= $this->session->flashdata('msgreq') ?></h4>			
 			<br>
 			<h3 class="mb-30">Register Here</h3>
 			<div class="col-lg-6 no-padding appoinment-right">

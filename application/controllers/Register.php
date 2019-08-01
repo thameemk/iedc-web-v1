@@ -4,27 +4,26 @@ class Register extends CI_Controller{
 	public function __construct()
 	{
 		parent::__construct();
+    $this->load->model('report_model');
 		$this->load->library('session');
 		$this->load->helper('url','form');
   }
   public function userRegister(){
-    $this->load->model('report_model');
     $data = $this->input->post();
     $data = $this->security->xss_clean($data);
-    // $this->form_validation->set_rules('first_name', 'First Name', 'trim|required|');
-    // $this->form_validation->set_rules('last_name', 'Last Name', 'trim|required|');
-    // $this->form_validation->set_rules('email', 'Email', 'trim|required|');
-    // $this->form_validation->set_rules('phone', 'Phone', 'trim|required|');
-    // $this->form_validation->set_rules('branch', 'Branch', 'trim|required|');
-    // $this->form_validation->set_rules('course_duration_1', 'Course Duration 1', 'trim|required|');
-    // $this->form_validation->set_rules('course_duration_2', 'Course Duration 2', 'trim|required|');
-    // $this->form_validation->set_rules('admission_number', 'Admission Number', 'trim|required|');
-    // $this->form_validation->set_rules('dob', 'Date of Birth', 'trim|required|');
-    // $this->form_validation->set_rules('whyIedc', 'Why IEDC', 'trim|required|');
+    $this->form_validation->set_rules('first_name', 'First Name', 'required');
+    $this->form_validation->set_rules('email', 'Email', 'required');
+    $this->form_validation->set_rules('phone', 'Phone', 'required');
+    $this->form_validation->set_rules('branch', 'Branch', 'required');
+    $this->form_validation->set_rules('course_duration_1', 'Course Duration 1', 'required');
+    $this->form_validation->set_rules('course_duration_2', 'Course Duration 2', 'required');
+    $this->form_validation->set_rules('admission_number', 'Admission Number', 'required');
+    $this->form_validation->set_rules('dob', 'Date of Birth', 'required');
     if($this->form_validation->run() == FALSE){
          $this->session->set_flashdata('msgreq', 'Fill all required fields!');
-         // redirect('signup');
+         // redirect(base_url() . "register_backup");
          echo "flag3";
+         echo validation_errors();
      }
      else{
           $data = array(
