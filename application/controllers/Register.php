@@ -8,12 +8,15 @@ class Register extends CI_Controller{
 		$this->load->library('session');
 		$this->load->helper('url','form');
   }
+  public function checkDuplicate(){
+
+  }
   public function userRegister(){
     $data = $this->input->post();
     $data = $this->security->xss_clean($data);
     $this->form_validation->set_rules('first_name', 'First Name', 'required');
-    $this->form_validation->set_rules('email', 'Email', 'required');
-    $this->form_validation->set_rules('phone', 'Phone', 'required');
+    $this->form_validation->set_rules('email', 'Email', 'required|is_unique[userRegister.email]');
+    $this->form_validation->set_rules('phone', 'Phone', 'required|is_unique[userRegister.phone]');
     $this->form_validation->set_rules('branch', 'Branch', 'required');
     $this->form_validation->set_rules('course_duration_1', 'Course Duration 1', 'required');
     $this->form_validation->set_rules('course_duration_2', 'Course Duration 2', 'required');
