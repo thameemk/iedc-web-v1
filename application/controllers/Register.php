@@ -23,10 +23,10 @@ class Register extends CI_Controller{
     $this->form_validation->set_rules('admission_number', 'Admission Number', 'required');
     $this->form_validation->set_rules('dob', 'Date of Birth', 'required');
     if($this->form_validation->run() == FALSE){
-         $this->session->set_flashdata('msgreq', 'Fill all required fields!');
-         // redirect(base_url() . "register_backup");
-         echo "flag3";
-         echo validation_errors();
+         $this->session->set_flashdata('msgreq', 'Fill all required fields! or You are already registered');
+         redirect(base_url() . "register_backup");
+         // echo "flag3";
+         // echo validation_errors();
      }
      else{
           $data = array(
@@ -45,13 +45,13 @@ class Register extends CI_Controller{
 
           if($this->input->post()){
             $this->session->set_flashdata('success', 'Registered Successfully!');
-            // redirect(base_url() . "register_backup");
-            echo "flag1";
+            redirect(base_url() . "register_backup");
+            // echo "flag1";
             }
           else {
             $this->session->set_flashdata('fail', 'Some error has been occured ! Please contact web admin');
-            // redirect(base_url() . "register_backup");
-            echo "flag2";
+            redirect(base_url() . "register_backup");
+            // echo "flag2";
             }
           }
 
