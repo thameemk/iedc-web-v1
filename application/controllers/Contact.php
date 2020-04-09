@@ -23,15 +23,15 @@ class Contact extends CI_Controller{
 
 		$config = array();
 		$config['protocol'] = 'smtp';
-		$config['smtp_host'] = 'mail.iedctkmce.com';
-		$config['smtp_user'] = 'webadmin@iedctkmce.com';
-		$config['smtp_pass'] = 'M}Ktn5eWM.Ve';
+		$config['smtp_host'] = '';
+		$config['smtp_user'] = '';
+		$config['smtp_pass'] = '';
 		$config['smtp_port'] = '587';
 		$this->load->library('email',$config);
 
 		$this->email->set_newline("\r\n");
 		$this->email->from($data['email'],$data['name']);
-		$this->email->to('info@iedctkmce.com');
+		$this->email->to('');
 		$this->email->subject($data['subject']);
 		$this->email->message($data['message']);
 
